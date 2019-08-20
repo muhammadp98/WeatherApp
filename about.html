@@ -1,0 +1,82 @@
+<body>
+  <div id="app">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar"></div>
+      <!-- Right panel with reveal effect-->
+    <div class="panel panel-right panel-reveal theme-dark">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-inner">
+            </div>
+          </div>
+          <div class="page-content">
+              <div class="block"><a class="link text-color-white" href="/">Get Weather</a></div>
+             <div class="block"><a class="link text-color-white" href="/about/">About Our Climate</a></div>
+              <div class="block"><a class="text-color-white" href="/gallery/">Gallery</a></div>
+              <div class="block">Developed By Muhammad Patel</div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main safe-areas">
+      <!-- Page, data-name contains page name which can be used in callbacks -->
+      <div class="page" data-name="home">
+        <!-- Scrollable page content-->
+        <div id="page-content" class="page-content">
+            <!-- Top Navbar -->
+            <div class="navbar">
+              <div class="navbar-inner">
+                  <!--
+                <div class="title sliding">GET REAL-TIME WEATHER</div>
+                -->
+                <div class="right">
+                  <a href="#" class="link icon-only panel-open" data-panel="right">
+                    <i class="text-color-black icon f7-icons ios-only">bars</i>
+                    <i class="icon material-icons md-only">menu</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="bg"></div>
+          <!-- This is the header with the main title -->
+            <div class="jumbotron">
+                <u><h1 class="text-center">About Our Climate</h1></u>
+            </div>
+            <div class="card demo-card-header-pic">
+              <div style="background-image:url(https://ichef.bbci.co.uk/images/ic/720x405/p06nb428.jpg)" class="card-header align-items-flex-end">Global Warming</div>
+              <div class="card-content card-content-padding">
+                  <p class="date">Posted on May 2, 2019</p>
+                <p class="date">Global warming is already having significant and costly effects on our communities, our health, and our climate.<br><br>Average global sea level has increased eight inches since 1880, but is rising much faster on the U.S. East Coast and Gulf of Mexico. Global warming is now accelerating the rate of sea level rise, increasing flooding risks to low-lying communities and high-risk coastal properties whose development has been encouraged by today's flood insurance system.</p>
+              </div>
+            </div>
+
+            <div class="card demo-card-header-pic">
+              <div style="background-image:url(https://www.moroccoworldnews.com/wp-content/uploads/2016/04/CarbonEmissions-Air-Pollution-and-climate-Change.jpg)" class="card-header align-items-flex-end">Pollution</div>
+              <div class="card-content card-content-padding">
+                <p class="date">Posted on January 21, 2019</p>
+                <p>Air pollution changes our planet's climate, but not all types of air pollution have the same effect. There are many different types of air pollution. Some types cause global warming to speed up. Others cause global warming to slow down by creating a temporary cooling effect for a few days or weeks.</p>
+              </div>
+            </div>
+            
+            <iframe class="margin-top" width="80%" height="250" src="https://www.youtube.com/embed/ymarrXoi0ZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <!-- Static Toolbar -->
+            <div class="margin-top toolbar toolbar-bottom">
+              <div class="toolbar-inner">
+                <p class="margin-top margin-left" style="font-size: 2.2vh">Follow Us:</p>
+                <a href="#"><i class="text-color-gray margin-right icon f7-icons">logo_twitter</i></a>
+                <a href="#"><i class="text-color-gray margin-right icon f7-icons">logo_facebook</i></a>
+                <a href="#"><i class="text-color-gray margin-right icon f7-icons">logo_instagram</i></a>
+                <a href="#"><i class="text-color-gray margin-right icon f7-icons">email_fill</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+   
